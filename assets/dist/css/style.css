@@ -1,0 +1,106 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+
+  color: #5a5a5a;
+}
+
+
+
+.navbar .navbar-dark .navbar-expand-md .sticky-top .navbar-shrink .py-3{
+  background-color: #2f2f2f;
+}
+
+
+
+.py-5 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+
+
+@media (min-width: 576px) {
+  .align-items-sm-start {
+    align-items: flex-start !important;
+  }
+
+}
+
+
+.p-4{
+  background-color: #2f2f2f;
+
+
+}
+p.rounded{
+  color:aliceblue;
+}
+
+
+
+.container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x)*.5);
+  padding-left: calc(var(--bs-gutter-x)*.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+
+.m-3  {
+  max-width: 90%;
+  display: inline-block;
+}
+
+@media (min-width: 420px) {
+  .m-3  {
+  max-width: 20%;
+  }
+  }
+@media (min-width: 760px) {
+  .m-3  {
+  max-width: 24%;
+  }
+  }
+
+
+
+
+.carousel {
+  margin-bottom: 5rem;
+}
+
+
+
+
+
+.featurette-divider {
+  background-color:white;
+  margin: 2rem 0; /* Space out the Bootstrap <hr> more */
+  
+}
+.py-5 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+
+
+
+.bs-icon {
+  --bs-icon-size: .75rem;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+
+}
+
