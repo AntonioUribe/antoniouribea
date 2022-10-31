@@ -11718,5 +11718,12 @@ fieldset:disabled .btn {
         display: none !important
     }
 }
+.contact img {
+    width: 2%;
+    margin-right: 2%;
+}
+.contact li {
+    margin: 30px;
+}
 
 /*# sourceMappingURL=bootstrap.min.css.map */
