@@ -605,7 +605,7 @@ progress {
 
 .img-fluid {
     max-width: 100%;
-    height: auto
+    height:auto
 }
 
 .img-thumbnail {
@@ -4972,7 +4972,7 @@ fieldset:disabled .btn {
 .card-img,
 .card-img-bottom,
 .card-img-top {
-    width: 100%
+    width: 100%;
 }
 
 .card-img,
@@ -11719,9 +11719,10 @@ fieldset:disabled .btn {
     }
 }
 .contact li{
-    margin: 5%;
+    margin: 2%;
 }
 .contact img{
     margin-right: 2%;
 }
+
 /*# sourceMappingURL=bootstrap.min.css.map */
