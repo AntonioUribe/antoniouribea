@@ -4973,6 +4973,10 @@ fieldset:disabled .btn {
 .card-img-bottom,
 .card-img-top {
     width: 100%;
+    
+}
+.fitimage {
+    object-fit: contain;
 }
 
 .card-img,
