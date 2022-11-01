@@ -1,0 +1,110 @@
+/* Servicios */
+.container-card{
+	width: 80%;
+	display: flex;
+	max-width: 2000px;
+	margin: auto;
+	text-align: justify;
+}
+
+.card{
+	width: 100%;
+	margin: 10px;
+	border-radius: 6px;
+	overflow: hidden;
+	background:#fff;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+}
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-2%);
+}
+.card img{
+	max-width: 300px;
+	max-height: 300px;
+	margin-top: 10px;
+	margin-left: 110px;
+	object-fit: cover;
+}
+.card .contenido-card{
+	padding: 15px;
+	text-align: center;
+}
+.card .contenido-card h5{
+	margin-bottom: 15px;
+    font-size: 20px;
+	color: #444;
+}
+.card .contenido-card p{
+	line-height: 1.8;
+	color: #6a6a6a;
+	font-size: 14px;
+	margin-bottom: 5px;
+	text-align: justify;
+}
+
+/* cartas 2 */
+
+.card2{
+	width: 55%;
+	margin: 10px;
+	border-radius: 6px;
+	overflow: hidden;
+	background:#fff;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+}
+
+.card2:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-5%);
+}
+
+.card2 img{
+	max-width: 500px;
+	max-height: 500px;
+	margin-top: 10px;
+	margin-left: 110px;
+	object-fit: cover;
+}
+
+.card2 .contenido-card2{
+	padding: 15px;
+	text-align: center;
+}
+
+.card2 .contenido-card2 h5{
+	margin-bottom: 15px;
+    font-size: 20px;
+	color: #444;
+}
+
+.card2 .contenido-card2 p{
+	line-height: 1.8;
+	color: #6a6a6a;
+	font-size: 15px;
+	margin-bottom: 5px;
+	text-align: justify;
+}
+
+
+.wap{
+	width: 90%;
+	margin: auto;
+	clear: both;
+}
+
+.bienvenidos{
+	margin-top: 50px;
+	text-align: center;
+}
+
+.wap h2{
+    font-family: 'Poppins';
+    font-size: 40px;
+    font-weight: bold;
+    color: #242424;
+}
